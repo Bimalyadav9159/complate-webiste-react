@@ -1,0 +1,90 @@
+section.service {
+    width: 100%;
+    margin-top: 28px;
+
+    .container {
+        width: 85%;
+        margin: 0 auto;
+
+        .title {
+            h3 {
+                color: #cdba6d;
+                font-weight: 700;
+                font-family: 'Quicksand', sans-serif;
+                font-size: 1rem;
+                line-height: 1.7;
+            }
+
+            h1 {
+                color: #354463;
+                font-family: 'Quicksand', sans-serif;
+                font-size: 2.75rem;
+                line-height: 1.2;
+                font-weight: 700;
+                letter-spacing: -2.8px;
+                margin-top: 5px;
+            }
+        }
+
+        .serv-item {
+            display: flex;
+            justify-content: space-between;
+
+            .serv-conts {
+                width: 22%;
+                height: 30%;
+                overflow: hidden;
+                padding: 5px;
+                background: #ffffff;
+                transition: all .3s;
+                box-shadow: 0 3px 15px 2px rgba(0, 0, 0, 0.1);
+                &:hover{
+                    background-color: #777777;
+                    color: white;
+                }
+                &:hover h4,h3{
+                    color: white;
+                }
+                .serv-img {
+
+                    overflow: hidden;
+
+                    img {
+                        width: 100%;
+                        height: auto;
+                        object-fit: cover;
+                    }
+                }
+                .serv-detals{
+                    h3 {
+                        color: #303030;
+                        font-family: 'Quicksand', sans-serif;
+                        font-size: 1.25rem;
+                        line-height: 1.1;
+                        font-weight: 700;
+                        margin-bottom: 0;
+                       
+                    }
+                    h4 {
+                        margin-bottom: 1rem;
+                        color: #cdba6d;
+                        font-family: 'Quicksand', sans-serif;
+                        font-size: 1rem;
+                        line-height: 1.7;
+                        margin-top: 3px;
+                    }
+                }
+               
+            }
+        }
+        .cirulare-bar {
+            margin-top: 60px;
+            .circular-item {
+                width: 11%;
+            }
+        }
+
+    }
+}
+
+

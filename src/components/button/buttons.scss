@@ -1,0 +1,13 @@
+button.ntn {
+    padding: 28px 50px;
+    font-size: 20px;
+    background: #42474c;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+.ntn:hover{
+   transform: scale(.8);
+}

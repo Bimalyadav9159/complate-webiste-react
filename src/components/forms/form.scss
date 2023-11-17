@@ -1,0 +1,32 @@
+.input-form {
+    width: 88%;
+    form{
+        input {
+            width: 95%;
+            padding: 10px 13px;
+            border-radius: 19px;
+            border: 1px solid #e2e3e7;
+            margin: 10px;
+            font-size: 16px;
+            background: #e2e3e7;
+            color: #676a74;
+        }
+        button.ntn {
+            border: 1px solid;
+            border-radius: 42px;
+            padding: 16px 30px;
+            background: 42474c;
+            &:hover{
+                background-color: #7b8085;
+                transform: scale(.9);
+                border: 1px solid black;
+                color: white;
+            }
+        }
+        .req{
+            color: #7b8085;
+            padding-left: 15px;
+            font-size: 15px;
+        }
+    }
+}

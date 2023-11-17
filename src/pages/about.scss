@@ -1,0 +1,48 @@
+.about {
+    margin: 85px auto;
+    width: 80%;
+    max-width: 100%;
+    .container {
+        display: flex;
+        gap: 100px;
+        flex-wrap: wrap;
+        .ab-img {
+            flex: 1 1 42%;
+            width: 42%;
+            overflow: hidden;
+             img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+        .about-details{
+            .abt-title {
+                color: #cdba6d;
+                font-size: 18px;
+                
+            }
+            h1 {
+                color: #303030;
+                font-family: 'Quicksand', sans-serif;
+                font-size: 2.75rem;
+                line-height: 1.2;
+                font-weight: 700;
+                letter-spacing: -2.8px;
+                margin: -3px 0px;
+            }
+            p.abt-desc {
+                font-size: 18px;
+                font-weight: 600;
+            }
+            p.ab-dsc {
+                font-family: 'Quicksand', sans-serif;
+                font-size: 1rem;
+                line-height: 1.7;
+                font-weight: 500;
+                color: #777777;
+            }
+            margin-top: 25px;
+        }
+    }
+}

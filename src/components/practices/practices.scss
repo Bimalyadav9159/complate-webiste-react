@@ -1,0 +1,75 @@
+section.practice {
+    width: 100%;
+   
+    .container {
+        width: 85%;
+        margin: 0 auto;
+        .pra-title {
+            text-align: center;
+            p {
+                color: #cdba6d;
+                font-family: 'Quicksand', sans-serif;
+                font-size: 1rem;
+                line-height: 1.7;
+                font-weight: bold;
+            }
+            h1 {
+                font-family: "Quicksand", sans-serif;
+                font-size: 2.75rem;
+                line-height: 1.2;
+                font-weight: 700;
+                letter-spacing: -2.8px;
+                margin: 0;
+                color: #303030;
+            }
+            p.pra-title-desc {
+                color: #777777;
+                font-family: 'Quicksand', sans-serif;
+                font-size: 1rem;
+                line-height: 1.7;
+                font-weight: 500;
+            }
+        }
+        .pra-containt {
+            margin-top: 10px;
+            .pra-detail {
+                display: flex;
+                justify-content: space-between;
+                gap: 70px;
+                .pra-all-detail {
+                    flex: 1 1 27%;
+                    background: #42474c;
+                     .pra-img {
+                        width: 100%;
+                        overflow: hidden;
+                        height: auto;
+                        filter: grayscale(1);
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                }
+                .pre-img-content {
+                    padding: 5px 10px 5px 20px;
+                    h4 {
+                        margin-bottom: 1rem;
+                        color: #cdba6d;
+                        font-family: 'Quicksand', sans-serif;
+                        font-size: 1.25rem;
+                        line-height: 1.1;
+                        font-weight: 700;
+                    }
+                    p {
+                        font-family: 'Quicksand', sans-serif;
+                        font-size: 1rem;
+                        line-height: 1.7;
+                        font-weight: 500;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
